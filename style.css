@@ -1,21 +1,22 @@
-body{
+body {
     margin: 0;
 }
 
-nav{
+nav {
     display: flex;
     padding: 1em;
-    
+
 }
 
-nav .logo-nav{
+nav .logo-nav {
     flex-grow: 1;
 }
 
-nav .logo-nav img{
+nav .logo-nav img {
     width: 300px;
-} 
-nav .menu-nav .menu-item{
+}
+
+nav .menu-nav .menu-item {
     display: inline-block;
     margin-right: 2em;
     text-decoration: none;
@@ -27,15 +28,63 @@ nav .menu-nav .menu-item{
 
 /* --------------------------------------------- */
 
-.section-1{
+.section-1 {
     background-color: red;
     text-align: center;
 }
-.section-1 a{
+
+.section-1 a {
     display: inline-block;
     color: white;
     text-decoration: none;
 }
-.section-1 a:hover{
+
+.section-1 a div {
+    display: flex;
+}
+
+.section-1 a div h1 {
+    margin-right: 5px;
+}
+
+.section-1 a div h1:nth-child(2) {
+    text-decoration: underline rgb(250, 249, 249);
+}
+
+.section-1 a:hover {
     text-decoration: underline rgb(93, 84, 84);
+}
+
+/* ------------------------------------------------- */
+
+header {
+    width: 100%;
+    height: 1000px;
+    min-height: auto;
+    background-image: url(bg-img.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+header h1 {
+    font-size: 5em;
+}
+header p{
+    max-width: 500px;
+    font-size: 1.5em;
+}
+header .link a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    padding: 1em 2em;
+    border-radius: 1em;
+    margin-right: 2em;
+}
+header .content-header{
+    padding-left: 5em;
 }
