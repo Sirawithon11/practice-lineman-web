@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    padding: 1em;
+    
+}
+
+nav .logo-nav{
+    flex-grow: 1;
+}
+
+nav .logo-nav img{
+    width: 300px;
+} 
+nav .menu-nav .menu-item{
+    display: inline-block;
+    margin-right: 2em;
+    text-decoration: none;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 1000;
+    padding: 1em;
+    color: black;
+}
+
+/* --------------------------------------------- */
+
+.section-1{
+    background-color: red;
+    text-align: center;
+}
+.section-1 a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.section-1 a:hover{
+    text-decoration: underline rgb(93, 84, 84);
+}
